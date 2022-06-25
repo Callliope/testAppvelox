@@ -1,6 +1,9 @@
-.navbarcolor{
+.navbarstyle{
     background-color: #50CAFF;
     ;
+    padding: 0%;
+    height:55px;
+    margin-left: 190px;
 }
 .textcolor{
     color: white;
@@ -16,3 +19,12 @@
   
         color: #fff;
         }
+.profileStyle{
+    height: 45.95919036865234px;
+width: 45.918365478515625px;
+margin-top: -2.5px;
+border: 2px solid #fff ;
+border-radius: 25px;
+
+
+}
