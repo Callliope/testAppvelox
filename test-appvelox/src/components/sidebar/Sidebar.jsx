@@ -12,11 +12,11 @@ export default function sidebar() {
   return (
     <div>
       <div class="sidenav">
-  <div class='sidebarBlock'><a href="#">Логотип</a></div>
+  <div   id='topblock'><a href="#">Логотип</a></div>
 
-  <div class='sidebarBlock'>
-  <a  href="#">
-      <img src={heartpic} alt="search icon"  class="sidebaricon "></img>Профиль</a>
+  <div class='sidebarBlock'id='chosensection' >
+  <a  href="#" id='chosentext' >
+      <img src={heartpic} alt="search icon"   class="sidebaricon "></img>Профиль</a>
   </div>
 
   <div class='sidebarBlock'><a  href="#">
@@ -32,11 +32,12 @@ export default function sidebar() {
       <img src={polesnopic} alt="search icon"  class=" sidebaricon"></img>Полезно знать</a></div>
 
     <div><button class='buttonStyle'>Подать заявку</button></div>
-
+    <div class="bottomElement" >
   <div><a  href="#">
       <img src={helppic} alt="search icon"  class='sidebaricon' ></img>Помощь</a></div>
 
   <img src={logopic} alt="appvelox logo"></img>
+  </div>
 </div>
     </div>
   )
