@@ -4,18 +4,6 @@ body{
    
 
 }
-.iconStyle{
-    height: 18px;
-width: 18.000003814697266px;
-left: 0px;
-margin-top: 10px;
-margin-right: 4px;
-border-radius: 0px;
-
-
-
-
-}
 .topText{
    
 font-size: 28px;
@@ -23,5 +11,14 @@ font-weight: 400;
 line-height: 33px;
 letter-spacing: 0em;
 margin-left: 30px;
+
+}
+.buttonStyle{
+    background: #7761FF;
+border-radius: 5px;
+border: #7761FF ;
+height: 40px;
+width: 150px;
+margin-left: 20px;
 
 }
