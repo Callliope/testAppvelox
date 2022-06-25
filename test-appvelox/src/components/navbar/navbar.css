@@ -1,0 +1,18 @@
+.navbarcolor{
+    background-color: #50CAFF;
+    ;
+}
+.textcolor{
+    color: white;
+    border-color: white;
+    
+
+}
+.textcolor:hover {
+  
+    color: #fff;
+    }
+.textcolor:active {
+  
+        color: #fff;
+        }

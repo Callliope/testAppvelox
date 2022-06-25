@@ -1,24 +1,30 @@
 import React from 'react';
-import "./navbar.css";
+
+
 
 
 export default function navbar() {
   return (
-    <div> 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <div > 
+    <nav class="navbar navbar-expand-lg navbarcolor ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Панель навигации</a>
+    <a class="navbar-brand textcolor" href="#">Мой профиль</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Главная</a>
-        <a class="nav-link" href="#">Рекомендуемые</a>
-        <a class="nav-link" href="#">Цена</a>
-        <a class="nav-link disabled">Отключенная</a>
-      </div>
-    </div>
+        <form class="d-flex">
+        <a class="navbar-brand" href="#">
+      <img src='../..assets/search.png' width="30" height="24" class="d-inline-block align-text-top"></img>
+    </a>
+    <a class="navbar-brand" href="#">
+      <img src="test-appvelox\assets\bell.png"  width="30" height="24" class="d-inline-block align-text-top"></img>
+    </a>
+    <a class="navbar-brand" href="#">
+      <img src="test-appvelox\assets\eye 1.png"  width="30" height="24" class="d-inline-block align-text-top"></img>
+    </a>
+
+    </form>
+    
   </div>
 </nav>
   </div>
