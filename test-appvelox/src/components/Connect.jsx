@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Component } from 'react';
-const connect=(props)=>{
+const Connect=(props)=>{
     let appointments= [
         {
             "id":0,
@@ -43,12 +43,12 @@ const connect=(props)=>{
     ]
         
   
-    let appointmentlistshow=appointments.map((appointment)=><li>{appointment}</li>);
-    <ul>{appointmentlistshow}</ul>
+    let appointmentlistshow=appointments.map((appointment)=><li>{appointment.day}</li>);
+    <a>{appointmentlistshow}</a>
 }
 
     
   
-  export default connect;
+  export default Connect;
 
 
