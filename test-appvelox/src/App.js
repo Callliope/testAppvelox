@@ -11,29 +11,9 @@ function App() {
     <>
     <Navbar/>
     <Sidebar/>
+    <Connect/>
     </>
   );
 }
-componentDidMount(
-  this.readdata()
-) 
-function readata(){
-  var self = this;
-  // read data periodically
-  setInterval(function() {
-      axios.get("../../test-appvelox/src/data.json")
-          .then(function(response) {
-              var names=[];
-              Object.keys(response.data).forEach(function(data) {
-                   names.push(data.id);
-              })
-              self.setState({
-                  jdata: names
-              });
-          })
-          .catch(function(e) {
-              console.log("ERROR ", e);
-          })
-  }, 1000);
-} 
+
 export default App;
