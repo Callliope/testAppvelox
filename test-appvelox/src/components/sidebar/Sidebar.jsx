@@ -36,7 +36,7 @@ export default function sidebar() {
   <div><a  href="#">
       <img src={helppic} alt="search icon"  class='sidebaricon' ></img>Помощь</a></div>
 
-  <img src={logopic} alt="appvelox logo"></img>
+  <img src={logopic} alt="appvelox logo" id='appveloxlogo'></img>
   </div>
 </div>
     </div>
