@@ -1,19 +1,24 @@
 import React from 'react';
 import Navbar from "./components/navbar/Navbar.jsx";
 import Sidebar from "./components/sidebar/Sidebar.jsx";
-import Connect from "./components/Connect.jsx";
 import Electrcard from './components/electCardBlock/Electrcard.jsx';
-import axios from 'axios';
+import Testconnect2 from './components/connect/testconnect.jsx';
+import Page2list from './components/page2list/Page2list.jsx';
+
+
 import { useEffect } from "react";
 
 function App() {
   
     return (
     <>
-    <Navbar/>
+    <Navbar />
     <Sidebar/>
-    <Connect/>
+    <Testconnect2/>
+    
+  
     <Electrcard/>
+    
     </>
   );
 }
